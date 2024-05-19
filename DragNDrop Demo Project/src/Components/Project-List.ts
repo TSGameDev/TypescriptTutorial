@@ -1,9 +1,9 @@
-import Component from "./Component";
-import Autobind from "../Decorators/Autobind";
-import ProjectItem from "./Project-Item";
-import * as Project from "../Modules/Project";
-import * as ProjectState from "../States/Project-State";
-import * as DDInterfaces from "./Drag-Drop";
+import Component from "./Component.js";
+import Autobind from "../Decorators/Autobind.js";
+import ProjectItem from "./Project-Item.js";
+import * as Project from "../Modules/Project.js";
+import * as ProjectState from "../States/Project-State.js";
+import * as DDInterfaces from "./Drag-Drop.js";
 
 //Class that take the project list template and renders it to the screen. Project list is a section that holds a list of projects AKA there will be 2 one for holding active projects and one for holding finished.
 export default class ProjectList

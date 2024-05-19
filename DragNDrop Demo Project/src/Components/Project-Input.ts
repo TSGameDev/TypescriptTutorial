@@ -1,7 +1,7 @@
-import Component from "./Component";
-import Autobind from "../Decorators/Autobind";
-import * as ProjectState from "../States/Project-State";
-import * as Validator from "../Utils/Validation";
+import Component from "./Component.js";
+import Autobind from "../Decorators/Autobind.js";
+import * as ProjectState from "../States/Project-State.js";
+import * as Validator from "../Utils/Validation.js";
 
 //Class that takes the forum template and renders it to the screen.
 export class ProjectInput extends Component<HTMLDivElement, HTMLFormElement> {

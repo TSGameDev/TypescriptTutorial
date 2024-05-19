@@ -1,4 +1,4 @@
-import * as Project from '../Modules/Project';
+import * as Project from '../Modules/Project.js';
 
 // Project State Management
 type Listener<T> = (items: T[]) => void;
